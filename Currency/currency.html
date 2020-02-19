@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Converter</title>
+	<link rel="stylesheet" href="Style.css">
+	
+	
+</head>
+<body>
+
+
+<h1> Currency Converter </h1>
+
+<marquee>  Welcome To The Currency Converter </marquee>
+<br><br>
+<form name="converter">
+
+<fieldset>
+
+<label> Ban Currency(TAKA): </label>
+&nbsp &nbsp 
+<input type="number" name="taka" required >
+<input type="button" value="Convert" onclick="currencyConverter(converter.taka.value)">
+<br><br>
+
+<label> Dollar (American): <label>
+&nbsp &nbsp &nbsp &nbsp &nbsp
+<input id="dollar"> <br><br>
+
+<label> Europe (Euro): <label>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+<input id="euro"> <br><br>
+
+<label> UK Pound (GBP): <label>
+&nbsp &nbsp &nbsp &nbsp &nbsp 
+<input id="gbp"> <br><br>
+
+<label> Riyal (Saudi): <label>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+<input id="riyal"> <br><br>
+
+<label> Yuan (China): <label>
+&nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+<input id="yuan"> <br><br>
+
+<input type="reset" value="Reset Form">
+
+<p align="center"> You Can Press Reset Button for reseting the form</p>
+</fieldset>
+
+</form>
+
+
+<script src="currency.js"></script>
+
+
+	
+</body>
+</html>

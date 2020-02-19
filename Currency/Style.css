@@ -1,0 +1,72 @@
+body{
+
+   background: #C0C0C0;
+
+}
+
+h1{
+	
+   text-align:center;
+   font-size: 40px;
+   font-weight: bold;
+   cursor: pointer;
+   color:#b31b52;
+
+}
+
+marquee{
+  background-color:#6f90e3;
+  margin-bottom:20px;
+  font-size: 20px;
+  padding-top: 5px;
+  margin-left: 0%;
+  margin-right: 0%;
+  cursor: pointer;
+  
+
+}
+
+fieldset{
+
+  width: 40%;
+  margin: auto;
+  border: 1px solid #000;
+  text-align: left;
+  font-size: 15px;
+  color: #ab3746;
+  
+  
+
+}
+
+input[type=number],[id]{
+
+    background: #fff;
+	border: 1px solid #6f90e3;
+	border-radius: 2px;
+	border-width: 1px;
+	color: #3645b;
+	font-size: 15px;
+	margin: 5px;
+	padding: 10px;
+	display: inline-block;
+
+}
+
+
+input[type=button]{
+
+  background-color:#6f90e3
+  width: 80px;
+  height: 43px;
+  font-weight: bold;
+
+}
+
+input[type=reset]{
+
+  width: 95px;
+  height: 43px;
+  font-weight: bold;
+
+}
